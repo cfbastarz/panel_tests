@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+# In[1]:
+
+
 import os
 import xarray as xr
 import hvplot.xarray
@@ -8,15 +11,37 @@ import pandas as pd
 import panel as pn
 import intake
 
+
+# In[2]:
+
+
 Regs = ['gl', 'hn', 'tr', 'hs', 'as']
-Exps = ['DTC', 'BAMH', 'BAMH0']
+Exps = ['BAMH']
 Stats = ['VIES', 'RMSE', 'MEAN']
 
 data = '20230216002023030300'
 
+
+# In[3]:
+
+
 catalog = intake.open_catalog('https://raw.githubusercontent.com/cfbastarz/panel_tests/main/catalog.yml')
 
+
+# In[4]:
+
+
 ds1 = catalog.scantec_gl_rmse_dtc.to_dask()
+
+
+# In[5]:
+
+
+ds1
+
+
+# In[6]:
+
 
 Vars = list(ds1.variables)
 Vars.remove('time')
@@ -55,13 +80,15 @@ card_parameters = pn.Card(variable, region, experiment, statistic, test, title='
 
 settings = pn.Column(card_parameters)
 
-pn.Column(
-    settings,
-    plotFields,
-    width_policy='max'
-)
-
 pn.template.FastListTemplate(
     site="My Dashboard", title="panel_tests", sidebar=[settings],
     main=["My test.", plotFields], 
+#).show();
 ).servable();
+
+
+# In[ ]:
+
+
+
+
