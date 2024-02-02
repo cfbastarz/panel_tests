@@ -12,12 +12,12 @@ import panel as pn
 import intake
 
 
-# In[2]:
+# In[7]:
 
 
 Regs = ['gl', 'hn', 'tr', 'hs', 'as']
-Exps = ['BAMH']
-Stats = ['VIES', 'RMSE', 'MEAN']
+Exps = ['DTC']
+Stats = ['RMSE', 'VIES', 'MEAN']
 
 data = '20230216002023030300'
 
@@ -25,7 +25,8 @@ data = '20230216002023030300'
 # In[3]:
 
 
-catalog = intake.open_catalog('https://raw.githubusercontent.com/cfbastarz/panel_tests/main/catalog.yml')
+#catalog = intake.open_catalog('https://raw.githubusercontent.com/cfbastarz/panel_tests/main/catalog.yml')
+catalog = intake.open_catalog('catalog.yml')
 
 
 # In[4]:
@@ -40,7 +41,7 @@ ds1 = catalog.scantec_gl_rmse_dtc.to_dask()
 ds1
 
 
-# In[6]:
+# In[8]:
 
 
 Vars = list(ds1.variables)
@@ -83,7 +84,6 @@ settings = pn.Column(card_parameters)
 pn.template.FastListTemplate(
     site="My Dashboard", title="panel_tests", sidebar=[settings],
     main=["My test.", plotFields], 
-#).show();
 ).servable();
 
 
