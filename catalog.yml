@@ -1,11 +1,11 @@
 sources:
 
   scantec_gl_rmse_dtc:
-    driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
       urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/gl/RMSEDTC_20230216002023030300F.zarr
     description: Root Mean Square Error for the DTC experiment (gl area)
+    driver: intake_xarray.xzarr.ZarrSource
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
