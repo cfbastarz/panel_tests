@@ -1,4 +1,4 @@
-importScripts("https://cdn.jsdelivr.net/pyodide/v0.22.1/full/pyodide.js");
+importScripts("https://cdn.jsdelivr.net/pyodide/v0.24.1/full/pyodide.js");
 
 function sendPatch(patch, buffers, msg_id) {
   self.postMessage({
@@ -15,7 +15,7 @@ async function startApplication() {
   self.pyodide.globals.set("sendPatch", sendPatch);
   console.log("Loaded!");
   await self.pyodide.loadPackage("micropip");
-  const env_spec = ['https://cdn.holoviz.org/panel/0.14.3/dist/wheels/bokeh-2.4.3-py3-none-any.whl', 'https://cdn.holoviz.org/panel/0.14.3/dist/wheels/panel-0.14.3-py3-none-any.whl', 'pyodide-http==0.1.0', 'holoviews>=1.15.4', 'hvplot', 'intake', 'pandas', 'xarray', 'requests', 'aiohttp']
+  const env_spec = ['https://cdn.holoviz.org/panel/wheels/bokeh-3.3.4-py3-none-any.whl', 'https://cdn.holoviz.org/panel/1.3.8/dist/wheels/panel-1.3.8-py3-none-any.whl', 'pyodide-http==0.2.1', 'hvplot', 'intake', 'pandas', 'xarray']
   for (const pkg of env_spec) {
     let pkg_name;
     if (pkg.endsWith('.whl')) {
@@ -175,19 +175,19 @@ self.onmessage = async (event) => {
     _link_docs_worker(state.curdoc, sendPatch, setter='js')
     `)
   } else if (msg.type === 'patch') {
+    self.pyodide.globals.set('patch', msg.patch)
     self.pyodide.runPythonAsync(`
-    import json
-
-    state.curdoc.apply_json_patch(json.loads('${msg.patch}'), setter='js')
+    state.curdoc.apply_json_patch(patch.to_py(), setter='js')
     `)
     self.postMessage({type: 'idle'})
   } else if (msg.type === 'location') {
+    self.pyodide.globals.set('location', msg.location)
     self.pyodide.runPythonAsync(`
     import json
     from panel.io.state import state
     from panel.util import edit_readonly
     if state.location:
-        loc_data = json.loads("""${msg.location}""")
+        loc_data = json.loads(location)
         with edit_readonly(state.location):
             state.location.param.update({
                 k: v for k, v in loc_data.items() if k in state.location.param
