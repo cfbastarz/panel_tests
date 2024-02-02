@@ -17,11 +17,11 @@ sources:
 
 
   scantec_gl_mean_dtc:
-    driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
       urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/gl/MEANDTC_20230216002023030300F.zarr
     description: Mean Error for the DTC experiment (gl area)
+    driver: intake_xarray.xzarr.ZarrSource
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -33,11 +33,11 @@ sources:
 
 
   scantec_gl_vies_dtc:
-    driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
       urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/gl/VIESDTC_20230216002023030300F.zarr
     description: Bias for the DTC experiment (gl area)
+    driver: intake_xarray.xzarr.ZarrSource
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -49,11 +49,11 @@ sources:
 
 
   scantec_hn_rmse_dtc:
-    driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
       urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/hn/RMSEDTC_20230216002023030300F.zarr
     description: Root Mean Square Error for the DTC experiment (hn area)
+    driver: intake_xarray.xzarr.ZarrSource
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -65,11 +65,11 @@ sources:
 
 
   scantec_hn_mean_dtc:
-    driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
       urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/hn/MEANDTC_20230216002023030300F.zarr
     description: Mean Error for the DTC experiment (hn area)
+    driver: intake_xarray.xzarr.ZarrSource
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
