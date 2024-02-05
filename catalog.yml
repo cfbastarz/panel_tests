@@ -5,7 +5,7 @@ sources:
     driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
-      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/gl/RMSEDTC_20230216002023030300F.zarr
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/gl/RMSEDTC_20230216002023030300F.zarr.zarr
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/gl/
       tags:
