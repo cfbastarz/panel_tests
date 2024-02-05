@@ -1,0 +1,719 @@
+{
+    "metadata": {
+        ".zattrs": {
+            "comment": "virtual temperatura @ 925 hpa [k]",
+            "pdef": "None",
+            "storage": "99",
+            "title": "",
+            "undef": -999.9
+        },
+        ".zgroup": {
+            "zarr_format": 2
+        },
+        "lat/.zarray": {
+            "chunks": [
+                401
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                401
+            ],
+            "zarr_format": 2
+        },
+        "lat/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "lat"
+            ]
+        },
+        "lon/.zarray": {
+            "chunks": [
+                901
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                901
+            ],
+            "zarr_format": 2
+        },
+        "lon/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "lon"
+            ]
+        },
+        "pslc000/.zarray": {
+            "chunks": [
+                1,
+                401,
+                901
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                12,
+                401,
+                901
+            ],
+            "zarr_format": 2
+        },
+        "pslc000/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time",
+                "lat",
+                "lon"
+            ],
+            "comment": "surface pressure [hpa]",
+            "storage": "99"
+        },
+        "temp250/.zarray": {
+            "chunks": [
+                1,
+                401,
+                901
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                12,
+                401,
+                901
+            ],
+            "zarr_format": 2
+        },
+        "temp250/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time",
+                "lat",
+                "lon"
+            ],
+            "comment": "absolute temperature @ 250 hpa [k]",
+            "storage": "99"
+        },
+        "temp500/.zarray": {
+            "chunks": [
+                1,
+                401,
+                901
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                12,
+                401,
+                901
+            ],
+            "zarr_format": 2
+        },
+        "temp500/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time",
+                "lat",
+                "lon"
+            ],
+            "comment": "absolute temperature @ 500 hpa [k]",
+            "storage": "99"
+        },
+        "temp850/.zarray": {
+            "chunks": [
+                1,
+                401,
+                901
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                12,
+                401,
+                901
+            ],
+            "zarr_format": 2
+        },
+        "temp850/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time",
+                "lat",
+                "lon"
+            ],
+            "comment": "absolute temperature @ 850 hpa [k]",
+            "storage": "99"
+        },
+        "time/.zarray": {
+            "chunks": [
+                12
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<i8",
+            "fill_value": null,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                12
+            ],
+            "zarr_format": 2
+        },
+        "time/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time"
+            ],
+            "calendar": "proleptic_gregorian",
+            "units": "days since 2023-02-16 00:00:00"
+        },
+        "umes500/.zarray": {
+            "chunks": [
+                1,
+                401,
+                901
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                12,
+                401,
+                901
+            ],
+            "zarr_format": 2
+        },
+        "umes500/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time",
+                "lat",
+                "lon"
+            ],
+            "comment": "specific humidity @ 500 hpa [kg/kg]",
+            "storage": "99"
+        },
+        "umes850/.zarray": {
+            "chunks": [
+                1,
+                401,
+                901
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                12,
+                401,
+                901
+            ],
+            "zarr_format": 2
+        },
+        "umes850/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time",
+                "lat",
+                "lon"
+            ],
+            "comment": "specific humidity @ 850 hpa [kg/kg]",
+            "storage": "99"
+        },
+        "umes925/.zarray": {
+            "chunks": [
+                1,
+                401,
+                901
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                12,
+                401,
+                901
+            ],
+            "zarr_format": 2
+        },
+        "umes925/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time",
+                "lat",
+                "lon"
+            ],
+            "comment": "specific humidity @ 925 hpa [kg/kg]",
+            "storage": "99"
+        },
+        "uvel250/.zarray": {
+            "chunks": [
+                1,
+                401,
+                901
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                12,
+                401,
+                901
+            ],
+            "zarr_format": 2
+        },
+        "uvel250/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time",
+                "lat",
+                "lon"
+            ],
+            "comment": "zonal wind @ 250 hpa [m/s]",
+            "storage": "99"
+        },
+        "uvel500/.zarray": {
+            "chunks": [
+                1,
+                401,
+                901
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                12,
+                401,
+                901
+            ],
+            "zarr_format": 2
+        },
+        "uvel500/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time",
+                "lat",
+                "lon"
+            ],
+            "comment": "zonal wind @ 500 hpa [m/s]",
+            "storage": "99"
+        },
+        "uvel850/.zarray": {
+            "chunks": [
+                1,
+                401,
+                901
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                12,
+                401,
+                901
+            ],
+            "zarr_format": 2
+        },
+        "uvel850/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time",
+                "lat",
+                "lon"
+            ],
+            "comment": "zonal wind @ 850 hpa [m/s]",
+            "storage": "99"
+        },
+        "vtmp500/.zarray": {
+            "chunks": [
+                1,
+                401,
+                901
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                12,
+                401,
+                901
+            ],
+            "zarr_format": 2
+        },
+        "vtmp500/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time",
+                "lat",
+                "lon"
+            ],
+            "comment": "virtual temperatura @ 500 hpa [k]",
+            "storage": "99"
+        },
+        "vtmp850/.zarray": {
+            "chunks": [
+                1,
+                401,
+                901
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                12,
+                401,
+                901
+            ],
+            "zarr_format": 2
+        },
+        "vtmp850/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time",
+                "lat",
+                "lon"
+            ],
+            "comment": "virtual temperatura @ 850 hpa [k]",
+            "storage": "99"
+        },
+        "vtmp925/.zarray": {
+            "chunks": [
+                1,
+                401,
+                901
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                12,
+                401,
+                901
+            ],
+            "zarr_format": 2
+        },
+        "vtmp925/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time",
+                "lat",
+                "lon"
+            ],
+            "comment": "virtual temperatura @ 925 hpa [k]",
+            "storage": "99"
+        },
+        "vvel250/.zarray": {
+            "chunks": [
+                1,
+                401,
+                901
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                12,
+                401,
+                901
+            ],
+            "zarr_format": 2
+        },
+        "vvel250/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time",
+                "lat",
+                "lon"
+            ],
+            "comment": "meridional wind @ 250 hpa [m/s]",
+            "storage": "99"
+        },
+        "vvel500/.zarray": {
+            "chunks": [
+                1,
+                401,
+                901
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                12,
+                401,
+                901
+            ],
+            "zarr_format": 2
+        },
+        "vvel500/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time",
+                "lat",
+                "lon"
+            ],
+            "comment": "meridional wind @ 500 hpa [m/s]",
+            "storage": "99"
+        },
+        "vvel850/.zarray": {
+            "chunks": [
+                1,
+                401,
+                901
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                12,
+                401,
+                901
+            ],
+            "zarr_format": 2
+        },
+        "vvel850/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time",
+                "lat",
+                "lon"
+            ],
+            "comment": "meridional wind @ 850 hpa [m/s]",
+            "storage": "99"
+        },
+        "zgeo250/.zarray": {
+            "chunks": [
+                1,
+                401,
+                901
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                12,
+                401,
+                901
+            ],
+            "zarr_format": 2
+        },
+        "zgeo250/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time",
+                "lat",
+                "lon"
+            ],
+            "comment": "geopotential height @ 250 hpa [gpm]",
+            "storage": "99"
+        },
+        "zgeo500/.zarray": {
+            "chunks": [
+                1,
+                401,
+                901
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                12,
+                401,
+                901
+            ],
+            "zarr_format": 2
+        },
+        "zgeo500/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time",
+                "lat",
+                "lon"
+            ],
+            "comment": "geopotential height @ 500 hpa [gpm]",
+            "storage": "99"
+        },
+        "zgeo850/.zarray": {
+            "chunks": [
+                1,
+                401,
+                901
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                12,
+                401,
+                901
+            ],
+            "zarr_format": 2
+        },
+        "zgeo850/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time",
+                "lat",
+                "lon"
+            ],
+            "comment": "geopotential height @ 850 hpa [gpm]",
+            "storage": "99"
+        }
+    },
+    "zarr_consolidated_format": 1
+}

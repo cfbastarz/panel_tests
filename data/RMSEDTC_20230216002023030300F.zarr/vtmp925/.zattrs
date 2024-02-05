@@ -1,0 +1,9 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "time",
+        "lat",
+        "lon"
+    ],
+    "comment": "virtual temperatura @ 925 hpa [k]",
+    "storage": "99"
+}

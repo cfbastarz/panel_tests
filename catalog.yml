@@ -5,14 +5,14 @@ sources:
     driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
-      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/gl/RMSEDTC_20230216002023030300F.zarr.zarr
+      urlpath: https://raw.githubusercontent.com/cfbastarz/panel_tests/main/data/RMSEDTC_20230216002023030300F.zarr
     metadata:
-      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/gl/
+      catalog_dir: https://raw.githubusercontent.com/cfbastarz/panel_tests/main/data/
       tags:
         - atmosphere
         - scantec
         - bam
         - data_assimilation
-      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/gl/
+      url: https://raw.githubusercontent.com/cfbastarz/panel_tests/main/data/
 
 
