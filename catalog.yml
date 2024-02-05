@@ -2,7 +2,7 @@ sources:
 
   scantec_gl_rmse_dtc:
     description: Root Mean Square Error for the DTC experiment (gl area)
-    driver: intake_xarray.xzarr.ZarrSource
+    driver: zarr
     args:
       consolidated: true
       urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/old/dataout//gl/RMSEDTC_20230216002023030300F.zarr
