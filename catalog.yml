@@ -6,13 +6,3 @@ sources:
     args:
       consolidated: true
       urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/old/dataout//gl/RMSEDTC_20230216002023030300F.zarr
-    metadata:
-      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/old/dataout/
-      tags:
-        - atmosphere
-        - scantec
-        - bam
-        - data_assimilation
-      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/old/dataout/
-
-
