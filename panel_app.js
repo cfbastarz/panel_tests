@@ -74,7 +74,8 @@ data = '20230216002023030300'
 # In[3]:
 
 
-catalog = intake.open_catalog('https://raw.githubusercontent.com/cfbastarz/panel_tests/main/catalog.yml')
+catalog = intake.open_catalog('https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/catalog.yml')
+#catalog = intake.open_catalog('https://raw.githubusercontent.com/cfbastarz/panel_tests/main/catalog.yml')
 #catalog = intake.open_catalog('catalog.yml')
 
 
