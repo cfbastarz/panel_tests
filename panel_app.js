@@ -118,7 +118,7 @@ def plotFields(variable, region, experiment, statistic, test):
     dfs = catalog[lfname].to_dask()
     cmin=dfs[variable].min()
     cmax=dfs[variable].max()
-    cmap='tab20c_r'
+    #cmap='tab20c_r'
     if region == 'as': 
         frame_width=500
     else: 
