@@ -118,13 +118,12 @@ def plotFields(variable, region, experiment, statistic, test):
     dfs = catalog[lfname].to_dask()
     cmin=dfs[variable].min()
     cmax=dfs[variable].max()
-    #cmap='tab20c_r'
     if region == 'as': 
         frame_width=500
     else: 
         frame_width=960
     ax = dfs[variable].hvplot(groupby='time', clim=(cmin, cmax), widget_type='scrubber', widget_location='bottom', 
-                              frame_width=frame_width, cmap=cmap)
+                              frame_width=frame_width)
     return pn.Column(ax, sizing_mode='stretch_width')
 
 card_parameters = pn.Card(variable, region, experiment, statistic, test, title='Parameters', collapsed=False)
