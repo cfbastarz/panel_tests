@@ -61,7 +61,7 @@ import panel as pn
 import intake
 
 
-# In[7]:
+# In[2]:
 
 
 Regs = ['gl', 'hn', 'tr', 'hs', 'as']
@@ -74,9 +74,8 @@ data = '20230216002023030300'
 # In[3]:
 
 
-#catalog = intake.open_catalog('https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/catalog.yml')
-catalog = intake.open_catalog('https://raw.githubusercontent.com/cfbastarz/panel_tests/main/catalog.yml')
-#catalog = intake.open_catalog('catalog.yml')
+#catalog = intake.open_catalog('https://raw.githubusercontent.com/cfbastarz/panel_tests/main/catalog.yml')
+catalog = intake.open_catalog('catalog-no_proxy.yml')
 
 
 # In[4]:
@@ -91,7 +90,7 @@ ds1 = catalog.scantec_gl_rmse_dtc.to_dask()
 ds1
 
 
-# In[8]:
+# In[6]:
 
 
 Vars = list(ds1.variables)
@@ -118,12 +117,13 @@ def plotFields(variable, region, experiment, statistic, test):
     dfs = catalog[lfname].to_dask()
     cmin=dfs[variable].min()
     cmax=dfs[variable].max()
+    #cmap='tab20c_r'
     if region == 'as': 
         frame_width=500
     else: 
         frame_width=960
     ax = dfs[variable].hvplot(groupby='time', clim=(cmin, cmax), widget_type='scrubber', widget_location='bottom', 
-                              frame_width=frame_width)
+                              frame_width=frame_width)#, cmap=cmap)
     return pn.Column(ax, sizing_mode='stretch_width')
 
 card_parameters = pn.Card(variable, region, experiment, statistic, test, title='Parameters', collapsed=False)
@@ -133,6 +133,7 @@ settings = pn.Column(card_parameters)
 pn.template.FastListTemplate(
     site="My Dashboard", title="panel_tests", sidebar=[settings],
     main=["My test.", plotFields], 
+#).show();
 ).servable();
 
 
