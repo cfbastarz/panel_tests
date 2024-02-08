@@ -17,11 +17,11 @@ sources:
 
 
   scantec_gl_mean_dtc:
+    description: Mean Error for the DTC experiment (gl area)
+    driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
       urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/gl/MEANDTC_20230216002023030300F.zarr
-    description: Mean Error for the DTC experiment (gl area)
-    driver: intake_xarray.xzarr.ZarrSource
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -33,11 +33,11 @@ sources:
 
 
   scantec_gl_vies_dtc:
+    description: Bias for the DTC experiment (gl area)
+    driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
       urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/gl/VIESDTC_20230216002023030300F.zarr
-    description: Bias for the DTC experiment (gl area)
-    driver: intake_xarray.xzarr.ZarrSource
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -49,11 +49,11 @@ sources:
 
 
   scantec_hn_rmse_dtc:
+    description: Root Mean Square Error for the DTC experiment (hn area)
+    driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
       urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/hn/RMSEDTC_20230216002023030300F.zarr
-    description: Root Mean Square Error for the DTC experiment (hn area)
-    driver: intake_xarray.xzarr.ZarrSource
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -65,11 +65,11 @@ sources:
 
 
   scantec_hn_mean_dtc:
+    description: Mean Error for the DTC experiment (hn area)
+    driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
       urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/hn/MEANDTC_20230216002023030300F.zarr
-    description: Mean Error for the DTC experiment (hn area)
-    driver: intake_xarray.xzarr.ZarrSource
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -81,11 +81,11 @@ sources:
 
 
   scantec_hn_vies_dtc:
+    description: Bias for the DTC experiment (hn area)
+    driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
       urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/hn/VIESDTC_20230216002023030300F.zarr
-    description: Bias for the DTC experiment (hn area)
-    driver: intake_xarray.xzarr.ZarrSource
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -97,11 +97,11 @@ sources:
 
 
   scantec_tr_rmse_dtc:
+    description: Root Mean Square Error for the DTC experiment (tr area)
+    driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
       urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/tr/RMSEDTC_20230216002023030300F.zarr
-    description: Root Mean Square Error for the DTC experiment (tr area)
-    driver: intake_xarray.xzarr.ZarrSource
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -113,11 +113,11 @@ sources:
 
 
   scantec_tr_mean_dtc:
+    description: Mean Error for the DTC experiment (tr area)
+    driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
       urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/tr/MEANDTC_20230216002023030300F.zarr
-    description: Mean Error for the DTC experiment (tr area)
-    driver: intake_xarray.xzarr.ZarrSource
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -129,11 +129,11 @@ sources:
 
 
   scantec_tr_vies_dtc:
+    description: Bias for the DTC experiment (tr area)
+    driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
       urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/tr/VIESDTC_20230216002023030300F.zarr
-    description: Bias for the DTC experiment (tr area)
-    driver: intake_xarray.xzarr.ZarrSource
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -145,11 +145,11 @@ sources:
 
 
   scantec_hs_rmse_dtc:
+    description: Root Mean Square Error for the DTC experiment (hs area)
+    driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
       urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/hs/RMSEDTC_20230216002023030300F.zarr
-    description: Root Mean Square Error for the DTC experiment (hs area)
-    driver: intake_xarray.xzarr.ZarrSource
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -161,11 +161,11 @@ sources:
 
 
   scantec_hs_mean_dtc:
+    description: Mean Error for the DTC experiment (hs area)
+    driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
       urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/hs/MEANDTC_20230216002023030300F.zarr
-    description: Mean Error for the DTC experiment (hs area)
-    driver: intake_xarray.xzarr.ZarrSource
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -177,11 +177,11 @@ sources:
 
 
   scantec_hs_vies_dtc:
+    description: Bias for the DTC experiment (hs area)
+    driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
       urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/hs/VIESDTC_20230216002023030300F.zarr
-    description: Bias for the DTC experiment (hs area)
-    driver: intake_xarray.xzarr.ZarrSource
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -193,11 +193,11 @@ sources:
 
 
   scantec_as_rmse_dtc:
+    description: Root Mean Square Error for the DTC experiment (as area)
+    driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
       urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/as/RMSEDTC_20230216002023030300F.zarr
-    description: Root Mean Square Error for the DTC experiment (as area)
-    driver: intake_xarray.xzarr.ZarrSource
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -209,11 +209,11 @@ sources:
 
 
   scantec_as_mean_dtc:
+    description: Mean Error for the DTC experiment (as area)
+    driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
       urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/as/MEANDTC_20230216002023030300F.zarr
-    description: Mean Error for the DTC experiment (as area)
-    driver: intake_xarray.xzarr.ZarrSource
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -225,11 +225,11 @@ sources:
 
 
   scantec_as_vies_dtc:
+    description: Bias for the DTC experiment (as area)
+    driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
       urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/as/VIESDTC_20230216002023030300F.zarr
-    description: Bias for the DTC experiment (as area)
-    driver: intake_xarray.xzarr.ZarrSource
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -241,11 +241,11 @@ sources:
 
 
   scantec_gl_rmse_bamh:
+    description: Root Mean Square Error for the BAMH experiment (gl area)
+    driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
       urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/gl/RMSEBAMH_20230216002023030300F.zarr
-    description: Root Mean Square Error for the BAMH experiment (gl area)
-    driver: intake_xarray.xzarr.ZarrSource
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -257,11 +257,11 @@ sources:
 
 
   scantec_gl_mean_bamh:
+    description: Mean Error for the BAMH experiment (gl area)
+    driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
       urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/gl/MEANBAMH_20230216002023030300F.zarr
-    description: Mean Error for the BAMH experiment (gl area)
-    driver: intake_xarray.xzarr.ZarrSource
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -273,11 +273,11 @@ sources:
 
 
   scantec_gl_vies_bamh:
+    description: Bias for the BAMH experiment (gl area)
+    driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
       urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/gl/VIESBAMH_20230216002023030300F.zarr
-    description: Bias for the BAMH experiment (gl area)
-    driver: intake_xarray.xzarr.ZarrSource
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -289,11 +289,11 @@ sources:
 
 
   scantec_hn_rmse_bamh:
+    description: Root Mean Square Error for the BAMH experiment (hn area)
+    driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
       urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/hn/RMSEBAMH_20230216002023030300F.zarr
-    description: Root Mean Square Error for the BAMH experiment (hn area)
-    driver: intake_xarray.xzarr.ZarrSource
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -305,11 +305,11 @@ sources:
 
 
   scantec_hn_mean_bamh:
+    description: Mean Error for the BAMH experiment (hn area)
+    driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
       urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/hn/MEANBAMH_20230216002023030300F.zarr
-    description: Mean Error for the BAMH experiment (hn area)
-    driver: intake_xarray.xzarr.ZarrSource
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -321,11 +321,11 @@ sources:
 
 
   scantec_hn_vies_bamh:
+    description: Bias for the BAMH experiment (hn area)
+    driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
       urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/hn/VIESBAMH_20230216002023030300F.zarr
-    description: Bias for the BAMH experiment (hn area)
-    driver: intake_xarray.xzarr.ZarrSource
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -337,11 +337,11 @@ sources:
 
 
   scantec_tr_rmse_bamh:
+    description: Root Mean Square Error for the BAMH experiment (tr area)
+    driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
       urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/tr/RMSEBAMH_20230216002023030300F.zarr
-    description: Root Mean Square Error for the BAMH experiment (tr area)
-    driver: intake_xarray.xzarr.ZarrSource
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -353,11 +353,11 @@ sources:
 
 
   scantec_tr_mean_bamh:
+    description: Mean Error for the BAMH experiment (tr area)
+    driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
       urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/tr/MEANBAMH_20230216002023030300F.zarr
-    description: Mean Error for the BAMH experiment (tr area)
-    driver: intake_xarray.xzarr.ZarrSource
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -369,11 +369,11 @@ sources:
 
 
   scantec_tr_vies_bamh:
+    description: Bias for the BAMH experiment (tr area)
+    driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
       urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/tr/VIESBAMH_20230216002023030300F.zarr
-    description: Bias for the BAMH experiment (tr area)
-    driver: intake_xarray.xzarr.ZarrSource
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -385,11 +385,11 @@ sources:
 
 
   scantec_hs_rmse_bamh:
+    description: Root Mean Square Error for the BAMH experiment (hs area)
+    driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
       urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/hs/RMSEBAMH_20230216002023030300F.zarr
-    description: Root Mean Square Error for the BAMH experiment (hs area)
-    driver: intake_xarray.xzarr.ZarrSource
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -401,11 +401,11 @@ sources:
 
 
   scantec_hs_mean_bamh:
+    description: Mean Error for the BAMH experiment (hs area)
+    driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
       urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/hs/MEANBAMH_20230216002023030300F.zarr
-    description: Mean Error for the BAMH experiment (hs area)
-    driver: intake_xarray.xzarr.ZarrSource
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -417,11 +417,11 @@ sources:
 
 
   scantec_hs_vies_bamh:
+    description: Bias for the BAMH experiment (hs area)
+    driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
       urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/hs/VIESBAMH_20230216002023030300F.zarr
-    description: Bias for the BAMH experiment (hs area)
-    driver: intake_xarray.xzarr.ZarrSource
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -433,11 +433,11 @@ sources:
 
 
   scantec_as_rmse_bamh:
+    description: Root Mean Square Error for the BAMH experiment (as area)
+    driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
       urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/as/RMSEBAMH_20230216002023030300F.zarr
-    description: Root Mean Square Error for the BAMH experiment (as area)
-    driver: intake_xarray.xzarr.ZarrSource
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -449,11 +449,11 @@ sources:
 
 
   scantec_as_mean_bamh:
+    description: Mean Error for the BAMH experiment (as area)
+    driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
       urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/as/MEANBAMH_20230216002023030300F.zarr
-    description: Mean Error for the BAMH experiment (as area)
-    driver: intake_xarray.xzarr.ZarrSource
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -465,11 +465,11 @@ sources:
 
 
   scantec_as_vies_bamh:
+    description: Bias for the BAMH experiment (as area)
+    driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
       urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/as/VIESBAMH_20230216002023030300F.zarr
-    description: Bias for the BAMH experiment (as area)
-    driver: intake_xarray.xzarr.ZarrSource
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -481,11 +481,11 @@ sources:
 
 
   scantec_gl_rmse_bamh0:
+    description: Root Mean Square Error for the BAMH0 experiment (gl area)
+    driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
       urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/gl/RMSEBAMH0_20230216002023030300F.zarr
-    description: Root Mean Square Error for the BAMH0 experiment (gl area)
-    driver: intake_xarray.xzarr.ZarrSource
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -497,11 +497,11 @@ sources:
 
 
   scantec_gl_mean_bamh0:
+    description: Mean Error for the BAMH0 experiment (gl area)
+    driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
       urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/gl/MEANBAMH0_20230216002023030300F.zarr
-    description: Mean Error for the BAMH0 experiment (gl area)
-    driver: intake_xarray.xzarr.ZarrSource
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -513,11 +513,11 @@ sources:
 
 
   scantec_gl_vies_bamh0:
+    description: Bias for the BAMH0 experiment (gl area)
+    driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
       urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/gl/VIESBAMH0_20230216002023030300F.zarr
-    description: Bias for the BAMH0 experiment (gl area)
-    driver: intake_xarray.xzarr.ZarrSource
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -529,11 +529,11 @@ sources:
 
 
   scantec_hn_rmse_bamh0:
+    description: Root Mean Square Error for the BAMH0 experiment (hn area)
+    driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
       urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/hn/RMSEBAMH0_20230216002023030300F.zarr
-    description: Root Mean Square Error for the BAMH0 experiment (hn area)
-    driver: intake_xarray.xzarr.ZarrSource
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -545,11 +545,11 @@ sources:
 
 
   scantec_hn_mean_bamh0:
+    description: Mean Error for the BAMH0 experiment (hn area)
+    driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
       urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/hn/MEANBAMH0_20230216002023030300F.zarr
-    description: Mean Error for the BAMH0 experiment (hn area)
-    driver: intake_xarray.xzarr.ZarrSource
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -561,11 +561,11 @@ sources:
 
 
   scantec_hn_vies_bamh0:
+    description: Bias for the BAMH0 experiment (hn area)
+    driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
       urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/hn/VIESBAMH0_20230216002023030300F.zarr
-    description: Bias for the BAMH0 experiment (hn area)
-    driver: intake_xarray.xzarr.ZarrSource
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -577,11 +577,11 @@ sources:
 
 
   scantec_tr_rmse_bamh0:
+    description: Root Mean Square Error for the BAMH0 experiment (tr area)
+    driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
       urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/tr/RMSEBAMH0_20230216002023030300F.zarr
-    description: Root Mean Square Error for the BAMH0 experiment (tr area)
-    driver: intake_xarray.xzarr.ZarrSource
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -593,11 +593,11 @@ sources:
 
 
   scantec_tr_mean_bamh0:
+    description: Mean Error for the BAMH0 experiment (tr area)
+    driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
       urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/tr/MEANBAMH0_20230216002023030300F.zarr
-    description: Mean Error for the BAMH0 experiment (tr area)
-    driver: intake_xarray.xzarr.ZarrSource
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -609,11 +609,11 @@ sources:
 
 
   scantec_tr_vies_bamh0:
+    description: Bias for the BAMH0 experiment (tr area)
+    driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
       urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/tr/VIESBAMH0_20230216002023030300F.zarr
-    description: Bias for the BAMH0 experiment (tr area)
-    driver: intake_xarray.xzarr.ZarrSource
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -625,11 +625,11 @@ sources:
 
 
   scantec_hs_rmse_bamh0:
+    description: Root Mean Square Error for the BAMH0 experiment (hs area)
+    driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
       urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/hs/RMSEBAMH0_20230216002023030300F.zarr
-    description: Root Mean Square Error for the BAMH0 experiment (hs area)
-    driver: intake_xarray.xzarr.ZarrSource
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -641,11 +641,11 @@ sources:
 
 
   scantec_hs_mean_bamh0:
+    description: Mean Error for the BAMH0 experiment (hs area)
+    driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
       urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/hs/MEANBAMH0_20230216002023030300F.zarr
-    description: Mean Error for the BAMH0 experiment (hs area)
-    driver: intake_xarray.xzarr.ZarrSource
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -657,11 +657,11 @@ sources:
 
 
   scantec_hs_vies_bamh0:
+    description: Bias for the BAMH0 experiment (hs area)
+    driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
       urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/hs/VIESBAMH0_20230216002023030300F.zarr
-    description: Bias for the BAMH0 experiment (hs area)
-    driver: intake_xarray.xzarr.ZarrSource
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -673,11 +673,11 @@ sources:
 
 
   scantec_as_rmse_bamh0:
+    description: Root Mean Square Error for the BAMH0 experiment (as area)
+    driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
       urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/as/RMSEBAMH0_20230216002023030300F.zarr
-    description: Root Mean Square Error for the BAMH0 experiment (as area)
-    driver: intake_xarray.xzarr.ZarrSource
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -689,11 +689,11 @@ sources:
 
 
   scantec_as_mean_bamh0:
+    description: Mean Error for the BAMH0 experiment (as area)
+    driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
       urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/as/MEANBAMH0_20230216002023030300F.zarr
-    description: Mean Error for the BAMH0 experiment (as area)
-    driver: intake_xarray.xzarr.ZarrSource
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -705,11 +705,11 @@ sources:
 
 
   scantec_as_vies_bamh0:
+    description: Bias for the BAMH0 experiment (as area)
+    driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
       urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/as/VIESBAMH0_20230216002023030300F.zarr
-    description: Bias for the BAMH0 experiment (as area)
-    driver: intake_xarray.xzarr.ZarrSource
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
