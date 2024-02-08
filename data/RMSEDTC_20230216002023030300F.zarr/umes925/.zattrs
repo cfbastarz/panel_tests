@@ -1,9 +1,0 @@
-{
-    "_ARRAY_DIMENSIONS": [
-        "time",
-        "lat",
-        "lon"
-    ],
-    "comment": "specific humidity @ 925 hpa [kg/kg]",
-    "storage": "99"
-}

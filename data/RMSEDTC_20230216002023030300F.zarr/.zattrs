@@ -1,7 +1,0 @@
-{
-    "comment": "virtual temperatura @ 925 hpa [k]",
-    "pdef": "None",
-    "storage": "99",
-    "title": "",
-    "undef": -999.9
-}

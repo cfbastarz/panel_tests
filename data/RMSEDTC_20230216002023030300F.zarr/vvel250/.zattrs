@@ -1,9 +1,0 @@
-{
-    "_ARRAY_DIMENSIONS": [
-        "time",
-        "lat",
-        "lon"
-    ],
-    "comment": "meridional wind @ 250 hpa [m/s]",
-    "storage": "99"
-}

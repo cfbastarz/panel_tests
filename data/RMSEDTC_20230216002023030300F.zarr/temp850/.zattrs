@@ -1,9 +1,0 @@
-{
-    "_ARRAY_DIMENSIONS": [
-        "time",
-        "lat",
-        "lon"
-    ],
-    "comment": "absolute temperature @ 850 hpa [k]",
-    "storage": "99"
-}

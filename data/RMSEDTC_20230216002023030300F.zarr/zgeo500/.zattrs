@@ -1,9 +1,0 @@
-{
-    "_ARRAY_DIMENSIONS": [
-        "time",
-        "lat",
-        "lon"
-    ],
-    "comment": "geopotential height @ 500 hpa [gpm]",
-    "storage": "99"
-}
