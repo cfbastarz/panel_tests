@@ -1,5 +1,20 @@
 sources:
 
+  scantec_as_vies_bamh0:
+    description: Bias for the BAMH0 experiment (as area)
+    driver: intake_xarray.xzarr.ZarrSource
+    args:
+      consolidated: true
+      urlpath: https://corsproxy.io/?https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/as/VIESBAMH0_20230216002023030300F.zarr
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
+
   scantec_gl_rmse_dtc:
     description: Root Mean Square Error for the DTC experiment (gl area)
     driver: intake_xarray.xzarr.ZarrSource
@@ -703,19 +718,4 @@ sources:
         - data_assimilation
       url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
 
-
-  scantec_as_vies_bamh0:
-    description: Bias for the BAMH0 experiment (as area)
-    driver: intake_xarray.xzarr.ZarrSource
-    args:
-      consolidated: true
-      urlpath: https://corsproxy.io/?https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/as/VIESBAMH0_20230216002023030300F.zarr
-    metadata:
-      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
-      tags:
-        - atmosphere
-        - scantec
-        - bam
-        - data_assimilation
-      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
 
