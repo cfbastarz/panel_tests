@@ -25,8 +25,8 @@ data = '20230216002023030300'
 # In[3]:
 
 
-catalog = intake.open_catalog('https://raw.githubusercontent.com/cfbastarz/panel_tests/main/catalog.yml')
-#catalog = intake.open_catalog('catalog-no_proxy.yml')
+#catalog = intake.open_catalog('https://raw.githubusercontent.com/cfbastarz/panel_tests/main/catalog.yml')
+catalog = intake.open_catalog('catalog-no_proxy.yml')
 
 
 # In[4]:
@@ -41,7 +41,7 @@ ds1 = catalog.scantec_gl_rmse_dtc.to_dask()
 ds1
 
 
-# In[6]:
+# In[10]:
 
 
 Vars = list(ds1.variables)
@@ -59,13 +59,18 @@ statistic = pn.widgets.Select(name='Statistic', value=Stats[0], options=Stats)
 test_list = ['ref_GFS', 'ref_Era5', 'ref_PAnl']
 test = pn.widgets.Select(name='Reference', value=test_list[0], options=test_list)
 
+@pn.cache
+def loadData(lfname):
+    return catalog[lfname].to_dask()
+
 @pn.depends(variable, region, experiment, statistic, test)
 def plotFields(variable, region, experiment, statistic, test):
     if test == 'ref_GFS': ttest = 'T1'
     if test == 'ref_Era5': ttest = 'T2'
     if test == 'ref_PAnl': ttest = 'T3'
     lfname = 'scantec_' + region.lower() + '_' + statistic.lower() + '_' + experiment.lower()
-    dfs = catalog[lfname].to_dask()
+    #dfs = catalog[lfname].to_dask()
+    dfs = loadData(lfname)
     cmin=dfs[variable].min()
     cmax=dfs[variable].max()
     #cmap='tab20c_r'
@@ -77,13 +82,22 @@ def plotFields(variable, region, experiment, statistic, test):
                               frame_width=frame_width)#, cmap=cmap)
     return pn.Column(ax, sizing_mode='stretch_width')
 
+@pn.depends(variable, region, experiment, statistic, test)
+def myName(variable, region, experiment, statistic, test):
+    if test == 'ref_GFS': ttest = 'T1'
+    if test == 'ref_Era5': ttest = 'T2'
+    if test == 'ref_PAnl': ttest = 'T3'
+    lfname = 'scantec_' + region.lower() + '_' + statistic.lower() + '_' + experiment.lower()
+
+    return lfname
+
 card_parameters = pn.Card(variable, region, experiment, statistic, test, title='Parameters', collapsed=False)
 
 settings = pn.Column(card_parameters)
 
 pn.template.FastListTemplate(
     site="My Dashboard", title="panel_tests", sidebar=[settings],
-    main=["My test.", plotFields], 
+    main=["My test.", myName, plotFields], 
 #).show();
 ).servable();
 
