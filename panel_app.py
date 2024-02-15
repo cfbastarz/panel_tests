@@ -29,27 +29,28 @@ data = '20230216002023030300'
 catalog = intake.open_catalog('catalog-no_proxy.yml')
 
 
+# In[ ]:
+
+
+#ds1 = catalog.scantec_gl_rmse_dtc.to_dask()
+
+
+# In[ ]:
+
+
+#ds1
+
+
 # In[4]:
 
 
-ds1 = catalog.scantec_gl_rmse_dtc.to_dask()
+#Vars = list(ds1.variables)
+#Vars.remove('time')
+#Vars.remove('lat')
+#Vars.remove('lon')
 
-
-# In[5]:
-
-
-ds1
-
-
-# In[10]:
-
-
-Vars = list(ds1.variables)
-Vars.remove('time')
-Vars.remove('lat')
-Vars.remove('lon')
-
-variable_list = Vars
+#variable_list = Vars
+variable_list = ['pslc000', 'zgeo850']
 variable = pn.widgets.Select(name='Variable', value=variable_list[0], options=variable_list)
 
 region = pn.widgets.Select(name='Region', value=Regs[0], options=Regs)

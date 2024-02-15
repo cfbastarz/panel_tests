@@ -78,27 +78,28 @@ catalog = intake.open_catalog('https://raw.githubusercontent.com/cfbastarz/panel
 #catalog = intake.open_catalog('catalog-no_proxy.yml')
 
 
-# In[4]:
+# In[ ]:
 
 
-ds1 = catalog.scantec_gl_rmse_dtc.to_dask()
+#ds1 = catalog.scantec_gl_rmse_dtc.to_dask()
 
 
-# In[5]:
+# In[ ]:
 
 
 #ds1
 
 
-# In[10]:
+# In[4]:
 
 
-Vars = list(ds1.variables)
-Vars.remove('time')
-Vars.remove('lat')
-Vars.remove('lon')
+#Vars = list(ds1.variables)
+#Vars.remove('time')
+#Vars.remove('lat')
+#Vars.remove('lon')
 
-variable_list = Vars
+#variable_list = Vars
+variable_list = ['pslc000', 'zgeo850']
 variable = pn.widgets.Select(name='Variable', value=variable_list[0], options=variable_list)
 
 region = pn.widgets.Select(name='Region', value=Regs[0], options=Regs)
