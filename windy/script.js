@@ -21,6 +21,6 @@ windyInit(options, windyAPI => {
 
     L.popup()
         .setLatLng([22.39, 135.0])
-        .setContent('Cachoeira Paulista')
+        .setContent('Hello World!')
         .openOn(map);
 });
