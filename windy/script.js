@@ -20,7 +20,7 @@ windyInit(options, windyAPI => {
     // .map is instance of Leaflet map
 
     L.popup()
-        .setLatLng([22.39, 45.0])
+        .setLatLng([22.39, 135.0])
         .setContent('Cachoeira Paulista')
         .openOn(map);
 });
