@@ -5,7 +5,7 @@ sources:
     driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
-      urlpath: https://corsproxy.io/?https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/gl/RMSEDTC_20230216002023030300F.zarr
+      urlpath: https://dataserver.cptec.inpe.br/dataserver_dimnt/das/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/gl/RMSEDTC_20230216002023030300F.zarr
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -21,7 +21,7 @@ sources:
     driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
-      urlpath: https://corsproxy.io/?https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/gl/MEANDTC_20230216002023030300F.zarr
+      urlpath: https://dataserver.cptec.inpe.br/dataserver_dimnt/das/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/gl/MEANDTC_20230216002023030300F.zarr
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -37,7 +37,7 @@ sources:
     driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
-      urlpath: https://corsproxy.io/?https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/gl/VIESDTC_20230216002023030300F.zarr
+      urlpath: https://dataserver.cptec.inpe.br/dataserver_dimnt/das/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/gl/VIESDTC_20230216002023030300F.zarr
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -53,7 +53,7 @@ sources:
     driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
-      urlpath: https://corsproxy.io/?https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/hn/RMSEDTC_20230216002023030300F.zarr
+      urlpath: https://dataserver.cptec.inpe.br/dataserver_dimnt/das/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/hn/RMSEDTC_20230216002023030300F.zarr
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -69,7 +69,7 @@ sources:
     driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
-      urlpath: https://corsproxy.io/?https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/hn/MEANDTC_20230216002023030300F.zarr
+      urlpath: https://dataserver.cptec.inpe.br/dataserver_dimnt/das/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/hn/MEANDTC_20230216002023030300F.zarr
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -85,7 +85,7 @@ sources:
     driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
-      urlpath: https://corsproxy.io/?https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/hn/VIESDTC_20230216002023030300F.zarr
+      urlpath: https://dataserver.cptec.inpe.br/dataserver_dimnt/das/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/hn/VIESDTC_20230216002023030300F.zarr
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -101,7 +101,7 @@ sources:
     driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
-      urlpath: https://corsproxy.io/?https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/tr/RMSEDTC_20230216002023030300F.zarr
+      urlpath: https://dataserver.cptec.inpe.br/dataserver_dimnt/das/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/tr/RMSEDTC_20230216002023030300F.zarr
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -117,7 +117,7 @@ sources:
     driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
-      urlpath: https://corsproxy.io/?https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/tr/MEANDTC_20230216002023030300F.zarr
+      urlpath: https://dataserver.cptec.inpe.br/dataserver_dimnt/das/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/tr/MEANDTC_20230216002023030300F.zarr
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -133,7 +133,7 @@ sources:
     driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
-      urlpath: https://corsproxy.io/?https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/tr/VIESDTC_20230216002023030300F.zarr
+      urlpath: https://dataserver.cptec.inpe.br/dataserver_dimnt/das/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/tr/VIESDTC_20230216002023030300F.zarr
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -149,7 +149,7 @@ sources:
     driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
-      urlpath: https://corsproxy.io/?https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/hs/RMSEDTC_20230216002023030300F.zarr
+      urlpath: https://dataserver.cptec.inpe.br/dataserver_dimnt/das/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/hs/RMSEDTC_20230216002023030300F.zarr
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -165,7 +165,7 @@ sources:
     driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
-      urlpath: https://corsproxy.io/?https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/hs/MEANDTC_20230216002023030300F.zarr
+      urlpath: https://dataserver.cptec.inpe.br/dataserver_dimnt/das/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/hs/MEANDTC_20230216002023030300F.zarr
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -181,7 +181,7 @@ sources:
     driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
-      urlpath: https://corsproxy.io/?https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/hs/VIESDTC_20230216002023030300F.zarr
+      urlpath: https://dataserver.cptec.inpe.br/dataserver_dimnt/das/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/hs/VIESDTC_20230216002023030300F.zarr
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -197,7 +197,7 @@ sources:
     driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
-      urlpath: https://corsproxy.io/?https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/as/RMSEDTC_20230216002023030300F.zarr
+      urlpath: https://dataserver.cptec.inpe.br/dataserver_dimnt/das/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/as/RMSEDTC_20230216002023030300F.zarr
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -213,7 +213,7 @@ sources:
     driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
-      urlpath: https://corsproxy.io/?https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/as/MEANDTC_20230216002023030300F.zarr
+      urlpath: https://dataserver.cptec.inpe.br/dataserver_dimnt/das/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/as/MEANDTC_20230216002023030300F.zarr
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -229,7 +229,7 @@ sources:
     driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
-      urlpath: https://corsproxy.io/?https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/as/VIESDTC_20230216002023030300F.zarr
+      urlpath: https://dataserver.cptec.inpe.br/dataserver_dimnt/das/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/as/VIESDTC_20230216002023030300F.zarr
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -245,7 +245,7 @@ sources:
     driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
-      urlpath: https://corsproxy.io/?https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/gl/RMSEBAMH_20230216002023030300F.zarr
+      urlpath: https://dataserver.cptec.inpe.br/dataserver_dimnt/das/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/gl/RMSEBAMH_20230216002023030300F.zarr
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -261,7 +261,7 @@ sources:
     driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
-      urlpath: https://corsproxy.io/?https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/gl/MEANBAMH_20230216002023030300F.zarr
+      urlpath: https://dataserver.cptec.inpe.br/dataserver_dimnt/das/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/gl/MEANBAMH_20230216002023030300F.zarr
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -277,7 +277,7 @@ sources:
     driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
-      urlpath: https://corsproxy.io/?https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/gl/VIESBAMH_20230216002023030300F.zarr
+      urlpath: https://dataserver.cptec.inpe.br/dataserver_dimnt/das/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/gl/VIESBAMH_20230216002023030300F.zarr
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -293,7 +293,7 @@ sources:
     driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
-      urlpath: https://corsproxy.io/?https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/hn/RMSEBAMH_20230216002023030300F.zarr
+      urlpath: https://dataserver.cptec.inpe.br/dataserver_dimnt/das/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/hn/RMSEBAMH_20230216002023030300F.zarr
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -309,7 +309,7 @@ sources:
     driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
-      urlpath: https://corsproxy.io/?https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/hn/MEANBAMH_20230216002023030300F.zarr
+      urlpath: https://dataserver.cptec.inpe.br/dataserver_dimnt/das/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/hn/MEANBAMH_20230216002023030300F.zarr
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -325,7 +325,7 @@ sources:
     driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
-      urlpath: https://corsproxy.io/?https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/hn/VIESBAMH_20230216002023030300F.zarr
+      urlpath: https://dataserver.cptec.inpe.br/dataserver_dimnt/das/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/hn/VIESBAMH_20230216002023030300F.zarr
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -341,7 +341,7 @@ sources:
     driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
-      urlpath: https://corsproxy.io/?https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/tr/RMSEBAMH_20230216002023030300F.zarr
+      urlpath: https://dataserver.cptec.inpe.br/dataserver_dimnt/das/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/tr/RMSEBAMH_20230216002023030300F.zarr
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -357,7 +357,7 @@ sources:
     driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
-      urlpath: https://corsproxy.io/?https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/tr/MEANBAMH_20230216002023030300F.zarr
+      urlpath: https://dataserver.cptec.inpe.br/dataserver_dimnt/das/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/tr/MEANBAMH_20230216002023030300F.zarr
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -373,7 +373,7 @@ sources:
     driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
-      urlpath: https://corsproxy.io/?https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/tr/VIESBAMH_20230216002023030300F.zarr
+      urlpath: https://dataserver.cptec.inpe.br/dataserver_dimnt/das/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/tr/VIESBAMH_20230216002023030300F.zarr
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -389,7 +389,7 @@ sources:
     driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
-      urlpath: https://corsproxy.io/?https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/hs/RMSEBAMH_20230216002023030300F.zarr
+      urlpath: https://dataserver.cptec.inpe.br/dataserver_dimnt/das/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/hs/RMSEBAMH_20230216002023030300F.zarr
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -405,7 +405,7 @@ sources:
     driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
-      urlpath: https://corsproxy.io/?https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/hs/MEANBAMH_20230216002023030300F.zarr
+      urlpath: https://dataserver.cptec.inpe.br/dataserver_dimnt/das/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/hs/MEANBAMH_20230216002023030300F.zarr
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -421,7 +421,7 @@ sources:
     driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
-      urlpath: https://corsproxy.io/?https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/hs/VIESBAMH_20230216002023030300F.zarr
+      urlpath: https://dataserver.cptec.inpe.br/dataserver_dimnt/das/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/hs/VIESBAMH_20230216002023030300F.zarr
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -437,7 +437,7 @@ sources:
     driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
-      urlpath: https://corsproxy.io/?https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/as/RMSEBAMH_20230216002023030300F.zarr
+      urlpath: https://dataserver.cptec.inpe.br/dataserver_dimnt/das/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/as/RMSEBAMH_20230216002023030300F.zarr
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -453,7 +453,7 @@ sources:
     driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
-      urlpath: https://corsproxy.io/?https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/as/MEANBAMH_20230216002023030300F.zarr
+      urlpath: https://dataserver.cptec.inpe.br/dataserver_dimnt/das/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/as/MEANBAMH_20230216002023030300F.zarr
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -469,7 +469,7 @@ sources:
     driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
-      urlpath: https://corsproxy.io/?https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/as/VIESBAMH_20230216002023030300F.zarr
+      urlpath: https://dataserver.cptec.inpe.br/dataserver_dimnt/das/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/as/VIESBAMH_20230216002023030300F.zarr
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -485,7 +485,7 @@ sources:
     driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
-      urlpath: https://corsproxy.io/?https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/gl/RMSEBAMH0_20230216002023030300F.zarr
+      urlpath: https://dataserver.cptec.inpe.br/dataserver_dimnt/das/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/gl/RMSEBAMH0_20230216002023030300F.zarr
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -501,7 +501,7 @@ sources:
     driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
-      urlpath: https://corsproxy.io/?https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/gl/MEANBAMH0_20230216002023030300F.zarr
+      urlpath: https://dataserver.cptec.inpe.br/dataserver_dimnt/das/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/gl/MEANBAMH0_20230216002023030300F.zarr
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -517,7 +517,7 @@ sources:
     driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
-      urlpath: https://corsproxy.io/?https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/gl/VIESBAMH0_20230216002023030300F.zarr
+      urlpath: https://dataserver.cptec.inpe.br/dataserver_dimnt/das/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/gl/VIESBAMH0_20230216002023030300F.zarr
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -533,7 +533,7 @@ sources:
     driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
-      urlpath: https://corsproxy.io/?https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/hn/RMSEBAMH0_20230216002023030300F.zarr
+      urlpath: https://dataserver.cptec.inpe.br/dataserver_dimnt/das/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/hn/RMSEBAMH0_20230216002023030300F.zarr
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -549,7 +549,7 @@ sources:
     driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
-      urlpath: https://corsproxy.io/?https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/hn/MEANBAMH0_20230216002023030300F.zarr
+      urlpath: https://dataserver.cptec.inpe.br/dataserver_dimnt/das/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/hn/MEANBAMH0_20230216002023030300F.zarr
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -565,7 +565,7 @@ sources:
     driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
-      urlpath: https://corsproxy.io/?https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/hn/VIESBAMH0_20230216002023030300F.zarr
+      urlpath: https://dataserver.cptec.inpe.br/dataserver_dimnt/das/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/hn/VIESBAMH0_20230216002023030300F.zarr
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -581,7 +581,7 @@ sources:
     driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
-      urlpath: https://corsproxy.io/?https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/tr/RMSEBAMH0_20230216002023030300F.zarr
+      urlpath: https://dataserver.cptec.inpe.br/dataserver_dimnt/das/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/tr/RMSEBAMH0_20230216002023030300F.zarr
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -597,7 +597,7 @@ sources:
     driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
-      urlpath: https://corsproxy.io/?https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/tr/MEANBAMH0_20230216002023030300F.zarr
+      urlpath: https://dataserver.cptec.inpe.br/dataserver_dimnt/das/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/tr/MEANBAMH0_20230216002023030300F.zarr
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -613,7 +613,7 @@ sources:
     driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
-      urlpath: https://corsproxy.io/?https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/tr/VIESBAMH0_20230216002023030300F.zarr
+      urlpath: https://dataserver.cptec.inpe.br/dataserver_dimnt/das/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/tr/VIESBAMH0_20230216002023030300F.zarr
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -629,7 +629,7 @@ sources:
     driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
-      urlpath: https://corsproxy.io/?https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/hs/RMSEBAMH0_20230216002023030300F.zarr
+      urlpath: https://dataserver.cptec.inpe.br/dataserver_dimnt/das/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/hs/RMSEBAMH0_20230216002023030300F.zarr
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -645,7 +645,7 @@ sources:
     driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
-      urlpath: https://corsproxy.io/?https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/hs/MEANBAMH0_20230216002023030300F.zarr
+      urlpath: https://dataserver.cptec.inpe.br/dataserver_dimnt/das/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/hs/MEANBAMH0_20230216002023030300F.zarr
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -661,7 +661,7 @@ sources:
     driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
-      urlpath: https://corsproxy.io/?https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/hs/VIESBAMH0_20230216002023030300F.zarr
+      urlpath: https://dataserver.cptec.inpe.br/dataserver_dimnt/das/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/hs/VIESBAMH0_20230216002023030300F.zarr
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -677,7 +677,7 @@ sources:
     driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
-      urlpath: https://corsproxy.io/?https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/as/RMSEBAMH0_20230216002023030300F.zarr
+      urlpath: https://dataserver.cptec.inpe.br/dataserver_dimnt/das/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/as/RMSEBAMH0_20230216002023030300F.zarr
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -693,7 +693,7 @@ sources:
     driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
-      urlpath: https://corsproxy.io/?https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/as/MEANBAMH0_20230216002023030300F.zarr
+      urlpath: https://dataserver.cptec.inpe.br/dataserver_dimnt/das/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/as/MEANBAMH0_20230216002023030300F.zarr
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
@@ -709,7 +709,7 @@ sources:
     driver: intake_xarray.xzarr.ZarrSource
     args:
       consolidated: true
-      urlpath: https://corsproxy.io/?https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/as/VIESBAMH0_20230216002023030300F.zarr
+      urlpath: https://dataserver.cptec.inpe.br/dataserver_dimnt/das/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1/as/VIESBAMH0_20230216002023030300F.zarr
     metadata:
       catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/T1
       tags:
