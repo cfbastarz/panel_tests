@@ -26,7 +26,7 @@ data = '20230216002023030300'
 
 
 #catalog = intake.open_catalog('https://raw.githubusercontent.com/cfbastarz/panel_tests/main/catalog.yml')
-catalog = intake.open_catalog('catalog-no_proxy.yml')
+catalog = intake.open_catalog('https://raw.githubusercontent.com/cfbastarz/panel_tests/main/catalog-no_proxy.yml')
 
 
 # In[ ]:
